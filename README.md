@@ -45,13 +45,6 @@ root/
 └── README.md # Documentation
 ```
 
----
-
-## ⚙️ Installation & Setup
-
-
----
-
 
 ---
 
