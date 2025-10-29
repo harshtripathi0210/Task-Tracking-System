@@ -1,114 +1,79 @@
-# Task Tracking System ✅
+# 🎨 TaskFlow Frontend – React UI
 
-A full-stack web application to manage daily tasks. Users can **Create, Read, Update, Delete (CRUD)** tasks with priority and deadline support.
+This is the **frontend** of the TaskFlow – Task Tracking System.  
+It provides a responsive and user-friendly interface where users can manage their daily tasks efficiently.  
+Built using **React.js** and **Tailwind CSS**, it connects seamlessly to the backend API for real-time task management.
 
 ---
 
 ## 🚀 Features
 
-✅ Add Task with due date & priority
-✅ Mark tasks as important
-✅ Edit & Delete tasks
-✅ Filter by task status
-✅ Responsive UI
-✅ MongoDB Database
+✅ Create, edit, and delete tasks  
+✅ Set priority and deadlines  
+✅ Mark tasks as completed or important  
+✅ Filter and search tasks by status  
+✅ Responsive design with Tailwind CSS  
+✅ Connects to backend API (Render)
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🌐 Frontend
-
-* React.js
-* Tailwind CSS
-* Axios
-
-### 🔗 Backend
-
-* Node.js + Express.js
-* MongoDB Atlas
-
----
-
-## 📂 Project Structure
-
-```
-root/
-│
-├── frontend/    # React UI
-├── backend/     # Node.js + Express API
-└── README.md    # Documentation
-```
+- **React.js**
+- **Vite**
+- **Tailwind CSS**
+- **Axios**
 
 ---
 
 ## ⚙️ Installation & Setup
 
-Clone the repository:
+Clone the repository and navigate to the frontend folder:
 
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
-cd repo-name
-```
+cd <repo-name>/frontend
 
----
+Install dependencies:
+npm install
 
-### ▶️ Run Frontend
-
-```bash
-cd frontend
+Run the app locally:
 npm run dev
-```
 
----
+🌐 API Configuration
 
-### 🖥️ Run Backend
+Create a .env file in the frontend folder and add your backend API URL:
 
-```bash
-cd backend
-npm start
-```
+VITE_API_URL=https://task-tracking-system-zz3o.onrender.com
 
-✅ Create a `.env` file inside `backend/`:
+🚀 Deployment
 
-```
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-```
+Deployed on Netlify
 
----
+🌐 Live Demo: https://vocal-pegasus-c7fc30.netlify.app
 
-## 🛡 Environment Variables
+🧩 Folder Structure
+frontend/
+│
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Application pages
+│   ├── services/        # API calls (Axios)
+│   ├── App.jsx          # Main app file
+│   └── main.jsx         # Entry point
+│
+├── public/              # Static assets
+└── package.json         # Project metadata
 
-| Variable Name | Description         |
-| ------------- | ------------------- |
-| MONGO_URI     | MongoDB Atlas URL   |
-| PORT          | Backend server port |
+👨‍💻 Developer
 
----
+Harsh Tripathi
+🔗 LinkedIn
 
----
+✨ Future Enhancements
 
-## 🚀 Deployment
+🌙 Dark Mode
 
-| Part     | Service                   | Status |
-| -------- | ------------------------- | ------ |
-| Frontend | GitHub Pages / Netlify    | ✅      |
-| Backend  | Render                    |  ✅      |
+📊 Task Analytics Dashboard
 
----
-
-## ✨ Future Enhancements
-
-
-* ✅ Dark Mode
-* ✅ Analytics Dashboard
-
----
-
-## 👨‍💻 Contributors
-
-* **Harsh Tripathi** — Developer
-
----
-
+🔔 Smart Notifications
