@@ -5,9 +5,9 @@ Users can **Create, Read, Update, and Delete (CRUD)** tasks with priority, deadl
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo  
 
-🚀 **Frontend (User Interface):** [Visit Site](https://vocal-pegasus-c7fc30.netlify.app)  
+🚀 **Frontend (User Interface):** [Visit Site to see Live 🌐 ](https://vocal-pegasus-c7fc30.netlify.app)  
 ⚙️ **Backend (API):** [Render API](https://task-tracking-system-zz3o.onrender.com)
 
 ---
@@ -37,51 +37,54 @@ Users can **Create, Read, Update, and Delete (CRUD)** tasks with priority, deadl
 ---
 
 ## 📁 Project Structure
-
-
+```
 root/
 │
 ├── frontend/ # React UI
 ├── backend/ # Node.js + Express API
 └── README.md # Documentation
+```
 
-yaml
-Copy code
+---
+
+## ⚙️ Installation & Setup
+
+
+---
+
 
 ---
 
 ## ⚙️ Installation & Setup
 
 Clone the repository:
-
+```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd repo-name
 
+
 ▶️ Run Frontend
-bash
-Copy code
 cd frontend
 npm install
 npm run dev
 
+
 🖥️ Run Backend
-bash
-Copy code
 cd backend
 npm install
 npm start
 
 ✅ Create a .env file inside backend/:
 
-ini
-Copy code
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 
-🛡 Environment Variables
-Variable Name	Description
-MONGO_URI	MongoDB Atlas connection
-PORT	Backend server port
+
+| Variable Name | Description              |
+| ------------- | ------------------------ |
+| MONGO_URI     | MongoDB Atlas connection |
+| PORT          | Backend server port      |
+
 
 | Component | Platform | Status | Link                                                  |
 | --------- | -------- | ------ | ----------------------------------------------------- |
