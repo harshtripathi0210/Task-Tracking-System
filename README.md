@@ -1,7 +1,8 @@
-# 🧩 TaskFlow – Task Tracking System (MERN)
+## 🧩 TaskFlow – Task Tracking System (MERN)
 
-A full-stack productivity web app to efficiently manage daily tasks.  
+A full-stack productivity web app to efficiently manage daily tasks.
 Users can **Create, Read, Update, and Delete (CRUD)** tasks with priority, deadlines, and progress tracking — all in one responsive dashboard.
+
 
 ---
 
